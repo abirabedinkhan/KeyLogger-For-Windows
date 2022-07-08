@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keylogger", "keylogger\keylogger.vcxproj", "{87ECB808-9353-4D27-ADC6-BC3317B9A112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BFA070F-EA4E-4D2F-B85A-7CF58FEAEAF6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		CMakeLists.txt = CMakeLists.txt
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87ECB808-9353-4D27-ADC6-BC3317B9A112}.Debug|x86.ActiveCfg = Debug|Win32
+		{87ECB808-9353-4D27-ADC6-BC3317B9A112}.Debug|x86.Build.0 = Debug|Win32
+		{87ECB808-9353-4D27-ADC6-BC3317B9A112}.Release|x86.ActiveCfg = Release|Win32
+		{87ECB808-9353-4D27-ADC6-BC3317B9A112}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9E920FC-A076-487B-A34A-DA49508E5CF7}
+	EndGlobalSection
+EndGlobal
